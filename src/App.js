@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import FirstSection from "./components/FirstSection";
+import SecondSection from "./components/SecondSection";
+import ThirdSection from "./components/ThirdSection";
+import FourthSection from "./components/FourthSection";
+import FifthSection from "./components/FifthSection";
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-full h-full relative">
+        <Header />
+        <FirstSection />
+        <SecondSection />
+        <ThirdSection />
+        <FourthSection />
+        <FifthSection />
     </div>
-  );
+  )
 }
-
-export default App;
