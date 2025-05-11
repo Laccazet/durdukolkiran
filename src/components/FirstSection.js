@@ -16,7 +16,7 @@ export default function FirstSection() {
                 <h1 className="text-[40px] relative left-1 ibm-f text-[#a5a5a5] leading-[1.10]">
                 <span className="">Frontend Developer</span>
                 <br />
-                <span className="">Space Lover</span>
+                <span className=""></span>
                 </h1>
                     
             </div>
